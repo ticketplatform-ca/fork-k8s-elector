@@ -1,0 +1,15 @@
+root = true
+
+[*]
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.php]
+indent_style = tab
+
+[*.py]
+# blackformatter forces us anyway
+indent_size = 4
